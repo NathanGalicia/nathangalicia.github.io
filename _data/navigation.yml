@@ -1,9 +1,21 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
+  - title: "Home"
+    url: /
+
+  - title: "About"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
+
+  - title: "Photography"
+    url: /photography/
+
+  - title: "Travel"
+    url: /travel/
+
+  - title: "Cooking"
+    url: /cooking/
+
+  - title: "Projects"
+    url: /projects/
+
   - title: "About"
     url: /about/
