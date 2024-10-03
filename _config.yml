@@ -34,7 +34,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: PST # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -104,19 +104,19 @@ defaults:
 
   # _posts categories
   - scope:
-      path: "_posts/cooking"
+      path: "_posts/cooking/"
     values:
       category: cooking
   - scope:
-      path: "_posts/photography"
+      path: "_posts/photography/"
     values:
       category: photography
   - scope:
-      path: "_posts/projects"
+      path: "_posts/projects/"
     values:
       category: projects
   - scope:
-      path: "_posts/travel"
+      path: "_posts/travel/"
     values:
       category: travel
 
@@ -130,7 +130,9 @@ defaults:
 
   # _categories
   - scope:
-    path: 
+      path: "_categories"
+    values:
+      layout: category
 
 category_archive:
   type: liquid
