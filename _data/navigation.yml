@@ -2,9 +2,6 @@ main:
   - title: "Home"
     url: /
 
-  - title: "About"
-    url: /categories/
-
   - title: "Photography"
     url: /photography/
 
